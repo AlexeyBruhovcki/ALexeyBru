@@ -1,6 +1,5 @@
 ﻿//Тема 11.Урок 3.
 //Задание 1
-using System.Security.Cryptography;
 
 Random random = new Random();
 Console.Write("Введите целое число от 0 до 5: ");
