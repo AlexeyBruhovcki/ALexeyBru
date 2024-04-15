@@ -17,17 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme8Les2Ex2", "Theme8Les2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme8Les2Ex3", "Theme8Les2Ex3\Theme8Les2Ex3.csproj", "{E58FAA52-A94A-4BCC-A0B9-4FAAEF24FD41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme9Lesson1", "Theme9Lesson1\Theme9Lesson1.csproj", "{BAAEBCA9-63F3-45EC-AF3D-9E961B01EC7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme9Lesson1", "Theme9Lesson1\Theme9Lesson1.csproj", "{BAAEBCA9-63F3-45EC-AF3D-9E961B01EC7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme9Lesson2", "Theme9Lesson2\Theme9Lesson2.csproj", "{4F8579E1-04C0-4C3A-B431-68554BC8A9D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme9Lesson2", "Theme9Lesson2\Theme9Lesson2.csproj", "{4F8579E1-04C0-4C3A-B431-68554BC8A9D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme10Lesson1", "Theme10Lesson1\Theme10Lesson1.csproj", "{81108F78-C30A-4B32-A109-45105D1A1BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme10Lesson1", "Theme10Lesson1\Theme10Lesson1.csproj", "{81108F78-C30A-4B32-A109-45105D1A1BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme10Lesson2", "Theme10Lesson2\Theme10Lesson2.csproj", "{9CC2CF3A-B610-4BC6-B62A-65D5B8C8CEE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme10Lesson2", "Theme10Lesson2\Theme10Lesson2.csproj", "{9CC2CF3A-B610-4BC6-B62A-65D5B8C8CEE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme11.Lesson1", "Theme11.Lesson1\Theme11.Lesson1.csproj", "{9DD4BFAC-3270-46FB-9A15-E13406556881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme11.Lesson1", "Theme11.Lesson1\Theme11.Lesson1.csproj", "{9DD4BFAC-3270-46FB-9A15-E13406556881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme11Lesson2", "Theme11Lesson2\Theme11Lesson2.csproj", "{E4B993AC-05EE-43AA-A24D-F921DA16F3C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme11Lesson2", "Theme11Lesson2\Theme11Lesson2.csproj", "{E4B993AC-05EE-43AA-A24D-F921DA16F3C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme11Lesson3", "Theme11Lesson3\Theme11Lesson3.csproj", "{B9115A20-7ED1-4CFF-A0C3-DF49140253BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{E4B993AC-05EE-43AA-A24D-F921DA16F3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4B993AC-05EE-43AA-A24D-F921DA16F3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4B993AC-05EE-43AA-A24D-F921DA16F3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9115A20-7ED1-4CFF-A0C3-DF49140253BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9115A20-7ED1-4CFF-A0C3-DF49140253BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9115A20-7ED1-4CFF-A0C3-DF49140253BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9115A20-7ED1-4CFF-A0C3-DF49140253BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
