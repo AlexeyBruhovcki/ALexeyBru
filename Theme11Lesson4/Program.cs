@@ -37,14 +37,13 @@ else if (name.ToLower() == "дядя фёдор" || name.ToLower() == "дядя 
     //case 11: Console.WriteLine("November"); break;
     //case 12: Console.WriteLine("December"); break;
 //}
-
 //Console.WriteLine("Сколько дней в этом месяце?");
 //int days=int.Parse(Console.ReadLine());
 //if ((n == 1 || n == 5 || n == 7 || n == 3 || n == 8 || n == 10 || n == 12) && days != 31) Console.WriteLine("Поражение, в этом месяце 31 день.");
 //else if (n == 2 && (days != 28||days!=29)) Console.WriteLine("Поражение, в этом месяце 28 или 29 дней.");
      //else if ((n == 4 || n == 6 ||n==9|| n == 11) && days != 30) Console.WriteLine("Поражение, в этом месяце 30 дней.");
           //else Console.Write("Победа");
-//Console.WriteLine();
+
 //Задание 2
 //Random rnd= new Random();
 //int num = rnd.Next(1, 13);
