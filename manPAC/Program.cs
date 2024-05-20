@@ -5,32 +5,45 @@ using System.Xml.Linq;
 
 
 Random random = new Random();
-char[,] grid = new char[20, 20];
+char[,] grid =
+{
+    {'O','O','O','O','O','O','O','O','O','O'},
+    {'O','.','.','.','.','.','.','.','.','O'},
+    {'O','.','O','O','.','O','.','O','.','O'},
+    {'.','.','.','.','.','O','.','O','.','O'},
+    {'O','.','O','O','.','.','.','.','.','.'},
+    {'O','.','.','.','.','.','O','O','.','O'},
+    {'O','.','O','O','.','.','.','.','.','.'},
+    {'.','.','.','.','.','O','O','O','.','O'},
+    {'O','.','.','O','.','.','.','.','.','.'},
+    {'O','O','.','O','.','O','O','O','.','O'}
+    
+
+};
+//char[,] grid = new char[10, 10];
 char man = 'X';
 char ghost = 'G';
-char ghost2 = 'G';
-//char[] ghost = new char[1];
-//char[] ghost2 = new char[1];
+char ghost2 = 'M';
 int[,] manCoord = new int[1, 2];
 int[,] ghostCoord = new int[1, 2];
 int[,] ghost2Coord = new int[1, 2];
 int health = 3;
 int score = 0;
-for (int i = 0; i < grid.GetLength(0); i++)
-{
-    for (int j = 0; j < grid.GetLength(1); j++)
-    {
-        grid[i, j] = '.';
-        Console.Write(grid[i, j] + " ");
-    }
-    Console.WriteLine(); 
-}
-ghostCoord[0, 0] = 15;
-ghostCoord[0, 1] = 8;
-ghost2Coord[0, 0] = 10;
+//for (int i = 0; i < grid.GetLength(0); i++)
+//{
+//    for (int j = 0; j < grid.GetLength(1); j++)
+//    {
+//        grid[i, j] = '.';
+//        Console.Write(grid[i, j] + " ");
+//    }
+//    Console.WriteLine(); 
+//}
+ghostCoord[0, 0] = 3;
+ghostCoord[0, 1] = 0;
+ghost2Coord[0, 0] = 7;
 ghost2Coord[0, 1] = 3;
-manCoord[0, 0] = 10;
-manCoord[0, 1] = 5;
+manCoord[0, 0] = 5;
+manCoord[0, 1] = 4;
 do
 {
     Console.Clear();
@@ -46,21 +59,26 @@ do
                     --manCoord[0, 0];
                     try
                     {
-                            int x = manCoord[0, 0];
-                            int y = manCoord[0, 1];
-                            if (grid[x, y] == '.') score++;
-                            if (grid[x, y] == 'G')
-                            {
-                                health--;
-                                manCoord[0, 0] = 10;
-                                manCoord[0, 1] = 5;
-                            }
+                        int x = manCoord[0, 0];
+                        int y = manCoord[0, 1];
+                        if (grid[x, y] == '.') score++;
+                        if (grid[x, y] == 'G')
+                        {
+                            health--;
+                            manCoord[0, 0] = 5;
+                            manCoord[0, 1] = 4;
+                        }
+                        if (grid[x, y] == 'O')
+                        {
+                            ++manCoord[0, 0];
+                            break;
+                        }
                             grid[x, y] = 'X';
                             grid[x + 1, y] = ' ';
                     }
                     catch (Exception ex)
                     {
-                        manCoord[0, 0] = 0;
+                    manCoord[0, 0] = 0;
                     }
                 }
                 break;
@@ -69,21 +87,27 @@ do
                     ++manCoord[0, 0];
                     try
                     {
-                            int x = manCoord[0, 0];
-                            int y = manCoord[0, 1];
-                            if (grid[x, y] == '.') score++;
-                            if (grid[x, y] == 'G')
-                            {
-                                health--;
-                                manCoord[0, 0] = 10;
-                                manCoord[0, 1] = 5;
-                            }
-                            grid[x, y] = 'X';
-                            grid[x - 1, y] = ' ';
+                        int x = manCoord[0, 0];
+                        int y = manCoord[0, 1];
+                        if (grid[x, y] == '.') score++;
+                        if (grid[x, y] == 'G')
+                        {
+                            health--;
+                            manCoord[0, 0] = 5;
+                            manCoord[0, 1] = 4;
+                        }
+                        if (grid[x, y] == 'O')
+                        {
+                            --manCoord[0, 0];
+                            break;
+                            
+                        }
+                        grid[x, y] = 'X';
+                        grid[x - 1, y] = ' ';
                     }
                     catch (Exception ex)
                     {
-                        manCoord[0, 0]=19;
+                        manCoord[0, 0]=grid.GetLength(0)-1;
                     }
                 }
                 break;
@@ -92,16 +116,22 @@ do
                     --manCoord[0, 1];
                     try
                     {
-                            int x = manCoord[0, 0];
-                            int y = manCoord[0, 1];
-                            if (grid[x, y] == '.') score++;
-                            if (grid[x, y] == 'G')
-                            {
-                                health--;
-                                manCoord[0, 0] = 10;
-                                manCoord[0, 1] = 5;
-                            }
-                            grid[x, y] = 'X';
+                        int x = manCoord[0, 0];
+                        int y = manCoord[0, 1];
+                        if (grid[x, y] == '.') score++;
+                        if (grid[x, y] == 'G')
+                        {
+                            health--;
+                            manCoord[0, 0] = 5;
+                            manCoord[0, 1] = 4;
+                        }
+                        if (grid[x, y] == 'O')
+                        {
+                            ++manCoord[0, 1];
+                            break;
+                            
+                        }
+                        grid[x, y] = 'X';
                             grid[x, y + 1] = ' ';
                     }
                     catch (Exception ex)
@@ -115,21 +145,27 @@ do
                     ++manCoord[0, 1];
                     try
                     {
-                            int x = manCoord[0, 0];
-                            int y = manCoord[0, 1];
-                            if (grid[x, y] == '.') score++;
-                            if (grid[x, y] == 'G')
-                            {
-                                health--;
-                                manCoord[0, 0] = 10;
-                                manCoord[0, 1] = 5;
-                            }
-                            grid[x, y] = 'X';
-                            grid[x, y - 1] = ' ';
+                        int x = manCoord[0, 0];
+                        int y = manCoord[0, 1];
+                        if (grid[x, y] == '.') score++;
+                        if (grid[x, y] == 'G')
+                        {
+                            health--;
+                            manCoord[0, 0] = 5;
+                            manCoord[0, 1] = 4;
+                        }
+                        if (grid[x, y] == 'O')
+                        {
+                            --manCoord[0, 1];
+                            break;
+                            
+                        }
+                        grid[x, y] = 'X';
+                        grid[x, y - 1] = ' ';
                     }
                     catch (Exception ex)
                     {
-                        manCoord[0, 1] = 19;
+                        manCoord[0, 1] = grid.GetLength(1)-1;
                     }
                 }
                 break;
@@ -145,8 +181,8 @@ do
                     --ghostCoord[0, 0];
                     try
                     {
-                            int x = ghostCoord[0, 0];
-                            int y = ghostCoord[0, 1];
+                        int x = ghostCoord[0, 0];
+                        int y = ghostCoord[0, 1];
                         if (grid[x, y] == '.')
                         {
                             grid[x, y] = 'G';
@@ -157,15 +193,15 @@ do
                             grid[x, y] = 'G';
                             grid[x+1, y] = ' ';
                         }
-                        else if (grid[x, y] == ' ')
+                        else if (grid[x, y] == 'O')
                         {
-                            grid[x, y] = 'X';
-                            grid[x, y + 1] = ' ';
+                            ++ghostCoord[0, 0];
+                            break;
                         }
                     }
                     catch (Exception ex)
                     {
-                        ++ghostCoord[0, 0];
+                    ++ghostCoord[0, 0];
                     }
                }
             }
@@ -189,11 +225,12 @@ do
                             grid[x, y] = 'G';
                             grid[x-1, y] = ' ';
                         }
-                        else if (grid[x, y] == ' ')
+                        else if (grid[x, y] == 'O')
                         {
-                            grid[x, y] = 'X';
-                            grid[x, y + 1] = ' ';
+                            --ghostCoord[0, 0];
+                            break;
                         }
+
                     }
                     catch (Exception ex)
                     {
@@ -221,12 +258,12 @@ do
                             grid[x, y] = 'G';
                             grid[x, y - 1] = ' ';
                         }
-                        else if (grid[x, y] == ' ')
+                        else if (grid[x, y] == 'O')
                         {
-                            grid[x, y] = 'X';
-                            grid[x, y + 1] = ' ';
+                            --ghostCoord[0, 1];
+                            break;
                         }
-                        
+
                     }
                     catch (Exception ex)
                     {
@@ -254,11 +291,12 @@ do
                             grid[x, y] = 'G';
                             grid[x, y + 1] = ' ';
                         }
-                            else if (grid[x, y] == ' ')
-                            {
-                                grid[x, y] = 'X';
-                                grid[x, y + 1] = ' ';
-                            }
+                        
+                        else if (grid[x, y] == 'O')
+                        {
+                            ++ghostCoord[0, 1];
+                            break;
+                        }
                     }
                     catch (Exception ex)
                     {
@@ -282,18 +320,20 @@ do
                             int y = ghost2Coord[0, 1];
                             if (grid[x, y] == '.')
                             {
-                                grid[x, y] = 'G';
+                                grid[x, y] = 'M';
                                 grid[x + 1, y] = '.';
                             }
-                            else if (grid[x, y] == ' ')
+                            if (grid[x, y] == ' ')
                             {
-                                grid[x, y] = 'G';
+                                grid[x, y] = 'M';
                                 grid[x + 1, y] = ' ';
                             }
-                            else if (grid[x, y] == ' ')
+                           
+                            if (grid[x, y] == 'O')
                             {
-                                grid[x, y] = 'X';
-                                grid[x, y + 1] = ' ';
+                                ++ghost2Coord[0, 0];
+                            
+                                break;
                             }
                     }
                     catch (Exception ex)
@@ -315,18 +355,19 @@ do
 
                             if (grid[x, y] == '.')
                             {
-                                grid[x, y] = 'G';
+                                grid[x, y] = 'M';
                                 grid[x - 1, y] = '.';
                             }
-                            else if (grid[x, y] == ' ')
+                            if (grid[x, y] == ' ')
                             {
-                                grid[x, y] = 'G';
+                                grid[x, y] = 'M';
                                 grid[x - 1, y] = ' ';
                             }
-                            else if (grid[x, y] == ' ')
+                            
+                            if (grid[x, y] == 'O')
                             {
-                                grid[x, y] = 'X';
-                                grid[x, y + 1] = ' ';
+                                --ghost2Coord[0, 0];
+                                break;
                             }
                     }
                     catch (Exception ex)
@@ -345,21 +386,20 @@ do
                     {
                             int x = ghost2Coord[0, 0];
                             int y = ghost2Coord[0, 1];
-
                             if (grid[x, y] == '.')
                             {
-                                grid[x, y] = 'G';
+                                grid[x, y] = 'M';
                                 grid[x, y - 1] = '.';
                             }
-                            else if (grid[x, y] == ' ')
+                            if (grid[x, y] == ' ')
                             {
-                                grid[x, y] = 'G';
+                                grid[x, y] = 'M';
                                 grid[x, y - 1] = ' ';
                             }
-                            else if (grid[x, y] == ' ')
+                            if (grid[x, y] == 'O')
                             {
-                                grid[x, y] = 'X';
-                                grid[x, y + 1] = ' ';
+                                --ghost2Coord[0, 1];
+                                break;
                             }
                     }
                     catch (Exception ex)
@@ -380,18 +420,18 @@ do
                             int y = ghost2Coord[0, 1];
                             if (grid[x, y] == '.')
                             {
-                                grid[x, y] = 'G';
+                                grid[x, y] = 'M';
                                 grid[x, y + 1] = '.';
                             }
-                            else if (grid[x, y] == ' ')
+                            if (grid[x, y] == ' ')
                             {
-                                grid[x, y] = 'G';
+                                grid[x, y] = 'M';
                                 grid[x, y + 1] = ' ';
                             }
-                            else if (grid[x, y] == ' ')
+                            if (grid[x, y] == 'O')
                             {
-                                grid[x, y] = 'X';
-                                grid[x, y + 1] = ' ';
+                                ++ghost2Coord[0, 1];
+                                break;
                             }
                     }
                     catch (Exception ex)
@@ -410,10 +450,15 @@ do
         }
         Console.WriteLine();
     }
-    Thread.Sleep(500);
+    Thread.Sleep(400);
     if (health == 0)
     {
-        Console.WriteLine("Игра окончена");
+        Console.WriteLine("Игра окончена, поражение!");
+        break;
+    }
+    if (score == 53)
+    {
+        Console.WriteLine("Игра окончена, победа!");
         break;
     }
 }
