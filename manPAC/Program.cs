@@ -23,7 +23,7 @@ for (int i = 0; i < grid.GetLength(0); i++)
         grid[i, j] = '.';
         Console.Write(grid[i, j] + " ");
     }
-    Console.WriteLine();
+    Console.WriteLine(); 
 }
 ghostCoord[0, 0] = 15;
 ghostCoord[0, 1] = 8;
