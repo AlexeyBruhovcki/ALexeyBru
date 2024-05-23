@@ -69,9 +69,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme18Lesson1", "Theme18Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme18Lesson2", "Theme18Lesson2\Theme18Lesson2.csproj", "{6E7FE30A-994A-448C-8DBE-501B21EE47FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmeika", "Zmeika\Zmeika.csproj", "{3A2B9855-85EC-4C9E-A4C9-1CBB8D3A8F87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zmeika", "Zmeika\Zmeika.csproj", "{3A2B9855-85EC-4C9E-A4C9-1CBB8D3A8F87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manPAC", "manPAC\manPAC.csproj", "{4809ACFD-01C4-4077-9707-87088293C651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "manPACV2", "manPAC\manPACV2.csproj", "{4809ACFD-01C4-4077-9707-87088293C651}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
