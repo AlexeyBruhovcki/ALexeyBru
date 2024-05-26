@@ -73,6 +73,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zmeika", "Zmeika\Zmeika.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "manPACV2", "manPAC\manPACV2.csproj", "{4809ACFD-01C4-4077-9707-87088293C651}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme20Lesson1", "Theme20Lesson1\Theme20Lesson1.csproj", "{EB13498A-2732-404B-B18F-0B30BAE36306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme20Lesson2", "Theme20Lesson2\Theme20Lesson2.csproj", "{0FACEAE7-2D76-4E4B-828A-A0DF0D9618FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +223,14 @@ Global
 		{4809ACFD-01C4-4077-9707-87088293C651}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4809ACFD-01C4-4077-9707-87088293C651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4809ACFD-01C4-4077-9707-87088293C651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB13498A-2732-404B-B18F-0B30BAE36306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB13498A-2732-404B-B18F-0B30BAE36306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB13498A-2732-404B-B18F-0B30BAE36306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB13498A-2732-404B-B18F-0B30BAE36306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FACEAE7-2D76-4E4B-828A-A0DF0D9618FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FACEAE7-2D76-4E4B-828A-A0DF0D9618FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FACEAE7-2D76-4E4B-828A-A0DF0D9618FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FACEAE7-2D76-4E4B-828A-A0DF0D9618FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
