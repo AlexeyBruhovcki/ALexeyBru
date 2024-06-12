@@ -38,7 +38,7 @@ MasPrint(MasSum(mas1, mas2));
 Console.WriteLine("Максимальное значение массива: "+MasMax(MasSum(mas1, mas2)));
 int[,] MasSum(int[,] mas1, int[,] mas2)
 {
-    int[,] mas = new int[4, 4];
+    int[,] mas = new int[mas1.GetLength(0), mas1.GetLength(1)];
     for(int i = 0; i< mas.GetLength(0); i++)
     {
         for(int j = 0; j < mas.GetLength(1); j++)
