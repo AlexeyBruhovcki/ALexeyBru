@@ -83,13 +83,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme12Lesson22", "Theme12L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassWorkFiles", "ClassWorkFiles\ClassWorkFiles.csproj", "{4BDF9414-2F90-4CC4-BBDF-19BCC585A8DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme21Lesson1", "Theme21Lesson1\Theme21Lesson1.csproj", "{91D41945-AEA1-4978-915D-5548EE7F4A25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme21Lesson1", "Theme21Lesson1\Theme21Lesson1.csproj", "{91D41945-AEA1-4978-915D-5548EE7F4A25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme21Lesson2", "Theme21Lesson2\Theme21Lesson2.csproj", "{3845A566-551F-4772-A304-C486C037CD85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme21Lesson2", "Theme21Lesson2\Theme21Lesson2.csproj", "{3845A566-551F-4772-A304-C486C037CD85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme21Lesson3", "Theme21Lesson3\Theme21Lesson3.csproj", "{E19BFF68-F86C-49DD-A6A1-A7078FA256C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme21Lesson3", "Theme21Lesson3\Theme21Lesson3.csproj", "{E19BFF68-F86C-49DD-A6A1-A7078FA256C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme21Lesson4", "Theme21Lesson4\Theme21Lesson4.csproj", "{F694B36A-EBDF-4726-8A7B-0A2EF61CDA25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme21Lesson4", "Theme21Lesson4\Theme21Lesson4.csproj", "{F694B36A-EBDF-4726-8A7B-0A2EF61CDA25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme22Lesson2", "Theme22Lesson2\Theme22Lesson2.csproj", "{F11331A8-18C5-4A51-B7E5-15FB26FE0459}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +275,10 @@ Global
 		{F694B36A-EBDF-4726-8A7B-0A2EF61CDA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F694B36A-EBDF-4726-8A7B-0A2EF61CDA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F694B36A-EBDF-4726-8A7B-0A2EF61CDA25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11331A8-18C5-4A51-B7E5-15FB26FE0459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11331A8-18C5-4A51-B7E5-15FB26FE0459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11331A8-18C5-4A51-B7E5-15FB26FE0459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11331A8-18C5-4A51-B7E5-15FB26FE0459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
