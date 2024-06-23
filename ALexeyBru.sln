@@ -91,7 +91,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme21Lesson3", "Theme21Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme21Lesson4", "Theme21Lesson4\Theme21Lesson4.csproj", "{F694B36A-EBDF-4726-8A7B-0A2EF61CDA25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme22Lesson2", "Theme22Lesson2\Theme22Lesson2.csproj", "{F11331A8-18C5-4A51-B7E5-15FB26FE0459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme22Lesson2", "Theme22Lesson2\Theme22Lesson2.csproj", "{F11331A8-18C5-4A51-B7E5-15FB26FE0459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme24Lesson1", "Theme24Lesson1\Theme24Lesson1.csproj", "{6F8FCF35-D353-4072-84E5-640983A49776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme24Lesson2", "Theme24Lesson2\Theme24Lesson2.csproj", "{2EC73367-C64D-496C-84B0-821001EF429D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +283,14 @@ Global
 		{F11331A8-18C5-4A51-B7E5-15FB26FE0459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F11331A8-18C5-4A51-B7E5-15FB26FE0459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F11331A8-18C5-4A51-B7E5-15FB26FE0459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8FCF35-D353-4072-84E5-640983A49776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8FCF35-D353-4072-84E5-640983A49776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8FCF35-D353-4072-84E5-640983A49776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8FCF35-D353-4072-84E5-640983A49776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC73367-C64D-496C-84B0-821001EF429D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC73367-C64D-496C-84B0-821001EF429D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC73367-C64D-496C-84B0-821001EF429D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC73367-C64D-496C-84B0-821001EF429D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
