@@ -10,10 +10,12 @@ namespace Theme27Lesson2
     {
         public  decimal AddMoney(decimal balance,decimal addSum)
         {
+            Console.WriteLine($"Внесено {addSum}");
             return balance + addSum;
         }
         public  decimal WithdrawMoney(decimal balance,decimal subSum)
         {
+            Console.WriteLine($"Снято {subSum}");
             return balance - subSum;
         }
         public  void PrintBalance( decimal balance)
