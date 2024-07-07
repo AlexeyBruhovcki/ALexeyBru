@@ -18,16 +18,16 @@ do
                 Console.Write("Введите сумму, которую хотите внести: ");
                 if(decimal.TryParse(Console.ReadLine(), out addSum)&&addSum>0)
                 curBalance = bankAccount.AddMoney(curBalance, addSum);
-                else Console.WriteLine("Введите сумму больше нуля.");
+                else Console.WriteLine("Неверная сумма");
             }
             break;
         case "снять":
             {
                 decimal subSum;
-                Console.Write("Введите сумму, которую хотите вывести: ");
+                Console.Write("Введите сумму, которую хотите снять: ");
                 if (decimal.TryParse(Console.ReadLine(), out subSum) && subSum > 0)
                     curBalance = bankAccount.WithdrawMoney(curBalance, subSum);
-                else Console.WriteLine("Введите сумму больше нуля.");
+                else Console.WriteLine("Неверная сумма");
                 
             }
             break;
