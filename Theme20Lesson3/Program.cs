@@ -22,7 +22,6 @@ do
     if (!int.TryParse(Console.ReadLine(), out n))
     {
         Console.WriteLine("Некорректный ввод, введите число от 1 до 5, нажмите юбую клавишу, чтобы продолжить");
-        
     }
     else
     {
@@ -32,30 +31,22 @@ do
         {
             case 1:
                 {
-                    //int x = 0;
-                    //int y = 0;
                     NumbInput(n, ref x, ref y);
                     Console.WriteLine("Результат: " + LogicOperation(n, x, y));
                 }; break;
             case 2:
                 {
-                    //int x = 0;
-                    //int y = 0;
                     NumbInput(n, ref x, ref y);
                     Console.WriteLine("Результат: "+LogicOperation(n, x, y));
                 }; break;
             case 3:
                 {
-                    //int x = 0;
-                    //int y = 0;
                     NumbInput(n, ref x, ref y);
                     Console.WriteLine("Результат: " + LogicOperation(n, x, y));
                 }
                 break;
             case 4:
                 {
-                    //int x = 0;
-                    //int y = 0;
                     NumbInput(n,ref x,ref y);
                     Console.WriteLine("Результат: " + LogicOperation(n, x));
                 }
