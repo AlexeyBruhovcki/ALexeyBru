@@ -8,23 +8,23 @@ namespace Theme27Lesson1
 {
     internal class RubleConverter
     {
-        public static decimal ToDollars(decimal rubles)
+        public decimal ToDollars(decimal rubles)
         {
             return rubles * 0.011m;
         }
-        public static decimal ToEuros(decimal rubles)
+        public decimal ToEuros(decimal rubles)
         {
             return rubles * 0.01m;
         }
-        public static decimal ToZlotys(decimal rubles)
+        public decimal ToZlotys(decimal rubles)
         {
             return rubles * 0.045m;
         }
-        public static decimal ToYuan(decimal rubles)
+        public decimal ToYuan(decimal rubles)
         {
             return rubles * 0.083m;
         }
-        public static decimal ToRupes(decimal rubles)
+        public decimal ToRupes(decimal rubles)
         {
             return rubles * 0.95m;
         }
