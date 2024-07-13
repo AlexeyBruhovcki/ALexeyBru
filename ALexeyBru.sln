@@ -105,9 +105,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme27Lesson1", "Theme27Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme27Lesson2", "Theme27Lesson2\Theme27Lesson2.csproj", "{8E1F5047-2B03-49F7-9455-80EC5C4EE6F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme27Lesson3", "Theme27Lesson3\Theme27Lesson3.csproj", "{93C08916-FE8B-4549-9B7B-F8281B83D121}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme27Lesson3", "Theme27Lesson3\Theme27Lesson3.csproj", "{93C08916-FE8B-4549-9B7B-F8281B83D121}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme27Lesson4", "Theme27Lesson4\Theme27Lesson4.csproj", "{77745DD9-67B8-4686-9BA5-3006A1F48034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme27Lesson4", "Theme27Lesson4\Theme27Lesson4.csproj", "{77745DD9-67B8-4686-9BA5-3006A1F48034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme20Lesson3", "Theme20Lesson3\Theme20Lesson3.csproj", "{F71FCD20-F290-4173-991D-A39121249054}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{77745DD9-67B8-4686-9BA5-3006A1F48034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77745DD9-67B8-4686-9BA5-3006A1F48034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77745DD9-67B8-4686-9BA5-3006A1F48034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71FCD20-F290-4173-991D-A39121249054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71FCD20-F290-4173-991D-A39121249054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71FCD20-F290-4173-991D-A39121249054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71FCD20-F290-4173-991D-A39121249054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
