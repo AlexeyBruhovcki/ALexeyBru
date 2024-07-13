@@ -26,34 +26,36 @@ do
     }
     else
     {
+        int x = 0;
+        int y = 0;
         switch (n)
         {
             case 1:
                 {
-                    int x = 0;
-                    int y = 0;
+                    //int x = 0;
+                    //int y = 0;
                     NumbInput(n, ref x, ref y);
                     Console.WriteLine("Результат: " + LogicOperation(n, x, y));
                 }; break;
             case 2:
                 {
-                    int x = 0;
-                    int y = 0;
+                    //int x = 0;
+                    //int y = 0;
                     NumbInput(n, ref x, ref y);
                     Console.WriteLine("Результат: "+LogicOperation(n, x, y));
                 }; break;
             case 3:
                 {
-                    int x = 0;
-                    int y = 0;
+                    //int x = 0;
+                    //int y = 0;
                     NumbInput(n, ref x, ref y);
                     Console.WriteLine("Результат: " + LogicOperation(n, x, y));
                 }
                 break;
             case 4:
                 {
-                    int x = 0;
-                    int y = 0;
+                    //int x = 0;
+                    //int y = 0;
                     NumbInput(n,ref x,ref y);
                     Console.WriteLine("Результат: " + LogicOperation(n, x));
                 }
