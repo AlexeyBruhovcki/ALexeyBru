@@ -8,7 +8,7 @@ namespace Theme27Lesson3
 {
     internal class Numbers
     {
-        public static double CalculateAverage(double[] mas)
+        public double CalculateAverage(double[] mas)
         {
             double sum = 0;
             int count = 0;
@@ -19,7 +19,7 @@ namespace Theme27Lesson3
             }
             return sum / count;
         }
-        public static bool IsPrime(int n)
+        public bool IsPrime(int n)
         {
             if (n == 1) return false;
             if (n==2) return true;
@@ -31,13 +31,13 @@ namespace Theme27Lesson3
             if (k == 1) return true;
             else return false;
         }
-        public static bool IsEven(int n)
+        public bool IsEven(int n)
         {
             if (n == 0) return false;
             if (n % 2 == 0) return true;
             else return false;
         }
-        public static bool IsOdd(int n)
+        public bool IsOdd(int n)
         {
             if (n == 0) return false;
             if (n % 2 != 0) return true;

@@ -1,7 +1,7 @@
 ﻿
 
 using Theme27Lesson3;
-
+Numbers numbers = new Numbers();
 double[] mas = new double[10];
 Random r = new Random();
 for(int i = 0; i < mas.Length; i++)
@@ -10,8 +10,8 @@ for(int i = 0; i < mas.Length; i++)
     Console.Write($"{mas[i]:F2} ");
 }
 Console.WriteLine();
-Console.WriteLine(Numbers.IsPrime(4));
-Console.WriteLine(Numbers.IsOdd(2));
-Console.WriteLine(Numbers.IsEven(3));
-Console.WriteLine($"{Numbers.CalculateAverage(mas):F2}");
+Console.WriteLine(numbers.IsPrime(4));
+Console.WriteLine(numbers.IsOdd(2));
+Console.WriteLine(numbers.IsEven(3));
+Console.WriteLine($"{numbers.CalculateAverage(mas):F2}");
 
