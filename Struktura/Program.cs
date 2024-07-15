@@ -11,7 +11,7 @@ Console.Write("Введите курс: ");
 student.kurs = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Ваш возраст "+student.GetVozrast());
-enum Gender
+enum Gender 
 {
     Мужской,
     Женский
