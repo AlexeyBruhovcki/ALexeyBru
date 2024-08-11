@@ -121,9 +121,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme28Lesson4", "Theme28Le
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassWork", "ClassWork", "{02420C42-957B-4355-ACBB-C4D172238D48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson31Perechisleniya", "Lesson31Perechisleniya\Lesson31Perechisleniya.csproj", "{3D7BD40A-2E40-4DDC-B30F-6E81F1277B9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson31Perechisleniya", "Lesson31Perechisleniya\Lesson31Perechisleniya.csproj", "{3D7BD40A-2E40-4DDC-B30F-6E81F1277B9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struktura", "Struktura\Struktura.csproj", "{55B4004C-C88E-43B5-9EE8-CD5046E3BED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struktura", "Struktura\Struktura.csproj", "{55B4004C-C88E-43B5-9EE8-CD5046E3BED3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LIstBox", "..\..\..\Desktop\CW\LIstBox\LIstBox.csproj", "{146CEEB4-FDAE-4A15-90BF-8C22A7F5BA7F}"
 EndProject
@@ -135,7 +135,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zhluzi", "..\..\..\Desktop\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avtosalon", "..\..\..\Desktop\CW\Avtosalon\Avtosalon.csproj", "{10BB16D5-12A2-4C2C-BDB0-AFE258EF2050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme29Enum", "Theme29Enum\Theme29Enum.csproj", "{F51EA3D7-216E-4B46-82E6-DA46120B93D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme29Enum", "Theme29Enum\Theme29Enum.csproj", "{F51EA3D7-216E-4B46-82E6-DA46120B93D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme31Lesson1.List", "..\..\..\OneDrive\Рабочий стол\Theme31Lesson1.List\Theme31Lesson1.List.csproj", "{D1EB38AE-8D9F-44A8-921F-3CE183191820}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme31Lesson2List", "..\..\..\OneDrive\Рабочий стол\Theme31Lesson2List\Theme31Lesson2List\Theme31Lesson2List.csproj", "{43CC6BCD-48EE-4770-8E59-0D8DC18D91D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -407,6 +411,14 @@ Global
 		{F51EA3D7-216E-4B46-82E6-DA46120B93D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F51EA3D7-216E-4B46-82E6-DA46120B93D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F51EA3D7-216E-4B46-82E6-DA46120B93D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EB38AE-8D9F-44A8-921F-3CE183191820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EB38AE-8D9F-44A8-921F-3CE183191820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EB38AE-8D9F-44A8-921F-3CE183191820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EB38AE-8D9F-44A8-921F-3CE183191820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CC6BCD-48EE-4770-8E59-0D8DC18D91D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CC6BCD-48EE-4770-8E59-0D8DC18D91D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CC6BCD-48EE-4770-8E59-0D8DC18D91D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CC6BCD-48EE-4770-8E59-0D8DC18D91D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
